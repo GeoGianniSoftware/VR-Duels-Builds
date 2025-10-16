@@ -84,32 +84,32 @@ Weapons somtimes not assigned dynamic network ownership on pickup.
 # Project Structure
 
 ### Scenes
-Assets/_Workspace_/Geo/Scenes/
- ├── MainMenu
- ├── Duel_Medieval_Detailed
+Assets/_Workspace_/Geo/Scenes/<br />
+ ├── MainMenu<br />
+ ├── Duel_Medieval_Detailed<br />
  
 ### Network Script Architecture overview
-Bootstrap.cs
- ├─ Manages persistent NetworkRunner
- ├─ Handles scene transition + shutdown sequencing
- ├─ Keeps global state (AutoStart, DuelRoomName, etc.)
+Bootstrap.cs<br />
+ ├─ Manages persistent NetworkRunner<br />
+ ├─ Handles scene transition + shutdown sequencing<br />
+ ├─ Keeps global state (AutoStart, DuelRoomName, etc.)<br />
 
-DuelBroker.cs
- ├─ Mediates player challenge requests
- ├─ Sends duel offers and confirmations via RPCs
+DuelBroker.cs<br />
+ ├─ Mediates player challenge requests<br />
+ ├─ Sends duel offers and confirmations via RPCs<br />
 
-ScoreBroker.cs
- ├─ Tracks duel state, round reset, win condition
- ├─ Synchronizes player scores
- ├─ Dispatches round reset RPCs
+ScoreBroker.cs<br />
+ ├─ Tracks duel state, round reset, win condition<br />
+ ├─ Synchronizes player scores<br />
+ ├─ Dispatches round reset RPCs<br />
 
-PlayerDuelData.cs
- ├─ Networked player state (health, name)
- ├─ Handles damage, respawn, and visual feedback
+PlayerDuelData.cs<br />
+ ├─ Networked player state (health, name)<br />
+ ├─ Handles damage, respawn, and visual feedback<br />
 
-ScoreUI.cs
- ├─ Reflects ScoreBroker network state
- ├─ Displays names, health, and win/lose feedback
+ScoreUI.cs<br />
+ ├─ Reflects ScoreBroker network state<br />
+ ├─ Displays names, health, and win/lose feedback<br />
 
 ## 🗣️ Developer Note / Final Thoughts
 “I treated this as if it were a vertical slice of a small commercial VR title, getting the systems right mattered more to me than polishing every feature. Open to walk through how each part of the architecture works and where I’d take it next.”
