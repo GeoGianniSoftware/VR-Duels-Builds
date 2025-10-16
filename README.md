@@ -52,24 +52,24 @@ and both players will bereturned back to the lobby
 - Syncs name, health, and player flags across peers.
 
 ### 💥 Combat (WIP)
--Prototype weapons: sword, spear, pistol, throwing discs, dagger, and grenade.
--All networked objects are pickup-ready using AutoHand’s interaction layer.
--Damage logic functional; hit events trigger RPCs and update score.
+- Prototype weapons: sword, spear, pistol, throwing discs, dagger, and grenade.
+- All networked objects are pickup-ready using AutoHand’s interaction layer.
+- Damage logic functional; hit events trigger RPCs and update score.
 
 ### 🧠 UI / UX
--Dynamic Score UI showing:
--Local and remote player names
--Per-round score and win/lose status
--Health bar updates with smooth fill interpolation
--Lobby vote panel (stubbed for now).
--Networked mirror camera for third-person reflection.
+- Dynamic Score UI showing:
+- Local and remote player names
+- Per-round score and win/lose status
+- Health bar updates with smooth fill interpolation
+- Lobby vote panel (stubbed for now).
+- Networked mirror camera for third-person reflection.
 
 ## Would Be Next Steps
-Replace local event-based UI hooks with full network-replicated hydration.
-Finalize weapon network ownership + damage authority.
-Expand arenas and voting system.
-Add Spectator Mode for extra players waiting in lobby.
-Implement Supabase integration for stats persistence.
+- Replace local event-based UI hooks with full network-replicated hydration.
+- Finalize weapon network ownership + damage authority.
+- Expand arenas and voting system.
+- Add Spectator Mode for extra players waiting in lobby.
+- Implement Supabase integration for stats persistence.
 
 ## 🚧 Known Issues
 ### UI Sync
