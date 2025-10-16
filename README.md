@@ -1,4 +1,4 @@
-# VR Duel Prototype
+# VR Duel Study Project
 ## 🏁 Summary
 This project demonstrates:
 - A functional Photon Fusion 2 network loop
