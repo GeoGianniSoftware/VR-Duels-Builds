@@ -1,6 +1,5 @@
 # VR Duel Prototype
 ## 🏁 Summary
-
 This project demonstrates:
 - A functional Photon Fusion 2 network loop
 - A hybrid VR interaction system
@@ -9,7 +8,6 @@ This project demonstrates:
 - The remaining bugs are minor synchronization issues that would take a few focused hours to resolve.
 
 ## 📋 Usage Instructions
-
 1. Clone the repository.
 2. Open either version folder:
 	- VR Runner
@@ -113,6 +111,6 @@ ScoreUI.cs
  ├─ Reflects ScoreBroker network state
  ├─ Displays names, health, and win/lose feedback
 
-## 🗣️ Developer Note
+## 🗣️ Developer Note / Final Thoughts
 “I treated this as if it were a vertical slice of a small commercial VR title, getting the systems right mattered more to me than polishing every feature. Open to walk through how each part of the architecture works and where I’d take it next.”
 - Gianni Rivero
